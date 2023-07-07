@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://b0cyb8vgcare7"]
+
+[node name="User_control_interface" type="Control"]
+layout_mode = 3
+anchor_top = 0.635802
+anchor_right = 1.0
+anchor_bottom = 1.00772
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_horizontal = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="buy" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.016
+anchor_right = 0.425
+anchor_bottom = 0.886
+offset_left = 0.567999
+offset_right = -267.6
+offset_bottom = -20.15
+text = "Buy
+"
+
+[node name="sell" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.248264
+anchor_right = 0.424479
+anchor_bottom = 0.804979
+text = "Sell
+"
+metadata/_edit_use_anchors_ = true

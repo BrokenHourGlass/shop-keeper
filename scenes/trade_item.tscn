@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://ciqy2qiacgooy"]
+
+[ext_resource type="Script" path="res://Scripts/item_scene.gd" id="1_nf1tf"]
+
+[node name="trade_item" type="Node2D"]
+script = ExtResource("1_nf1tf")
+item_id = 1

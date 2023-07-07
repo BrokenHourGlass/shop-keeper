@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://oe1w6w5t5l4n"]
+
+[ext_resource type="Script" path="res://Scripts/shop_scene.gd" id="1_ntajq"]
+[ext_resource type="PackedScene" uid="uid://b0cyb8vgcare7" path="res://scenes/user_control_interface.tscn" id="2_j6r5c"]
+
+[node name="Game_manager" type="Node"]
+script = ExtResource("1_ntajq")
+
+[node name="shop_scene" type="Node2D" parent="."]
+
+[node name="UI layer" type="CanvasLayer" parent="shop_scene"]
+
+[node name="User_control_interface" parent="shop_scene/UI layer" instance=ExtResource("2_j6r5c")]
