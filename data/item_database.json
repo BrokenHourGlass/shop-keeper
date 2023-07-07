@@ -1,0 +1,9 @@
+{
+"1": {
+"base_value": "10",
+"name": "Iron Sword",
+"rarity": 1.0,
+"sprite_path": "res://Assets/item_sprites/iron_sword_placeholder.png",
+"type": "Sword"
+},
+}

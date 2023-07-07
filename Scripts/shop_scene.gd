@@ -1,6 +1,7 @@
 extends Node
 
-var trade_item:Object
+@onready var item_for_trade = $trade_item
+@export var trade_item_id:int = 1
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
